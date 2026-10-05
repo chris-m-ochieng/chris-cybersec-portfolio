@@ -1,52 +1,67 @@
+# Chris Michael Ochieng — Cybersecurity Portfolio
 
-# My SOC Analyst Portfolio - Kenya 🇰🇪
-
-## About Me
-
-Hands-on aspiring SOC Analyst based in Kenya, with practical skills in SIEM detection, log analysis, phishing triage, and incident investigation — demonstrated through real lab investigations below.
-
-## Skills & Tools
-
-| Category              | Tools & Skills                                   |
-| --------------------- | ------------------------------------------------ |
-| **SIEM & Detection**  | Splunk, Wazuh, MITRE ATT&CK Mapping              |
-| **Phishing Analysis** | CyberChef, VirusTotal, URLScan.io, Thunderbird   |
-| **Email Analysis**    | Header analysis, Base64 decoding, IOC extraction |
-| **Log Analysis**      | Windows Event Logs, Sysmon, PowerShell parsing   |
-| **Credential Auditing** | Impacket, Hashcat                              |
-| **Scripting**         | Python (Learning)                                |
-
-## Completed Investigations
-
-### Phishing Analysis Fundamentals
-
-[View Investigation Report](https://github.com/chris-m-ochieng/chris-cybersec-portfolio/blob/main/Investigations/Phishing-Analysis-Fundamentals/screenshots/README.md)
-
-**Summary:** Analyzed a phishing email, decoded a Base64 PDF attachment, and identified Indicators of Compromise (IOCs).
-
-**Key Findings:**
-- Originating IP identified
-- Base64 encoded PDF attachment discovered
-- PDF confirmed malicious with `%PDF-1.6` header
-- SPF/DKIM/DMARC results analyzed
-
-**Tools Used:** Thunderbird, CyberChef, ARIN WHOIS
+## 👋 About Me
+Aspiring SOC Analyst based in Nairobi, Kenya. I build hands-on cybersecurity labs to develop real-world defensive skills. Currently interning as a Security Analyst at Oasis Infobyte, and accepted into Cohort 1 of the Cyvally Cybersecurity Mentorship Program.
 
 ---
 
-## Other Projects
+## 🎯 What I'm Working On
+- 🔍 **Splunk Threat Hunting** — Reconstructed a full web compromise (BOTSv1) using SPL queries.
+- 🛡️ **Wazuh SIEM Home Lab** — Detecting and investigating brute-force attacks in real time.
+- 📝 **Windows Event Log & Sysmon** — Hands-on detection notes for Windows security events.
+- 📚 **CompTIA Security+** — In progress.
 
-- **[Wazuh SOC Home Lab](https://github.com/chris-m-ochieng/Wazuh-SOC-Home-Lab)** — Detected and investigated a live SMB brute-force attack (MITRE T1110) using Wazuh SIEM, with full video walkthrough
-- **[Windows Event Log & Sysmon Notes](https://github.com/chris-m-ochieng/windows-event-log-notes)** — Six documented investigations covering logon analysis, process creation, service persistence, and audit log tampering
-- **[Password Audit with Hashcat](https://github.com/chris-m-ochieng/Windows-Password-Audit-Hashcat)** — NTLM hash extraction and password strength auditing using Impacket and Hashcat
+---
 
-## Currently Learning
+## 📁 Featured Projects
 
-- Preparing for **CompTIA Security+** certification
-- Building practical SOC skills through **TryHackMe** and additional labs
+### 🔍 Splunk Threat Hunting — BOTSv1 Web Compromise
+**Repository:** [splunk-botsv1-hunt](https://github.com/chris-m-ochieng/splunk-botsv1-hunt)
+- Reconstructed a full web compromise incident using Splunk SPL.
+- Analyzed HTTP, DNS, and authentication logs to trace the attack chain.
+- Documented the investigation from initial alert to root cause.
 
-## Connect With Me
+### 🛡️ Wazuh SOC Home Lab — Brute Force Detection
+**Repository:** [Wazuh-SOC-Home-Lab](https://github.com/chris-m-ochieng/Wazuh-SOC-Home-Lab)
+- Deployed Wazuh SIEM (Manager, Indexer, Dashboard) on Kali Linux.
+- Connected 2 Windows 10 agents and simulated an SMB brute-force attack.
+- Detected the attack via Rule 60122 (Windows Logon Failure) and mapped it to MITRE ATT&CK T1110.
 
-- [LinkedIn](https://www.linkedin.com/in/chris-michael-ochieng-995b39322/)
-- [TryHackMe](https://tryhackme.com/p/michaechris123)
-- michaechris123@gmail.com
+### 📝 Windows Event Log & Sysmon Notes
+**Repository:** [windows-event-log-notes](https://github.com/chris-m-ochieng/windows-event-log-notes)
+- Hands-on notes for Windows security event IDs and Sysmon monitoring.
+- Designed as a quick reference for SOC analysts during alert triage.
+
+
+### 🔐 Windows Password Audit with Hashcat
+**Repository:** [Windows-Password-Audit-Hashcat](https://github.com/chris-m-ochieng/Windows-Password-Audit-Hashcat)
+- Extracted NTLM hashes using Impacket and audited password strength with Hashcat.
+- Cracked a weak 4-digit PIN in under 1 second.
+- Delivered defensive recommendations (MFA, strong password policies, LAPS).
+
+### 🎣 Phishing Analysis Investigation
+**Repository:** [chris-cybersec-portfolio](https://github.com/chris-m-ochieng/chris-cybersec-portfolio)
+- Decoded Base64 attachments using CyberChef.
+- Traced originating IP addresses and identified IOCs.
+- Documented the full investigation process.
+
+---
+
+## 🛠️ Skills
+- **SIEM & Monitoring:** Wazuh, Splunk, Log Analysis, MITRE ATT&CK
+- **Networking:** TCP/IP, DNS, HTTP/HTTPS, Nmap, Wireshark
+- **Operating Systems:** Windows 10/11, Kali Linux, Ubuntu
+- **Programming:** Python (Sockets, Regex, File Handling, Threading)
+- **Security Tools:** NetExec, Hydra, Hashcat, Impacket, CyberChef, ExifTool
+- **Core Concepts:** Phishing Analysis, Password Auditing, OSINT, Incident Response
+
+---
+
+## 📫 Contact
+- **LinkedIn:** [chris-michael-ochieng-995b39322](https://www.linkedin.com/in/chris-michael-ochieng-995b39322/)
+- **GitHub:** [chris-m-ochieng](https://github.com/chris-m-ochieng)
+- **Email:** michaelchris123@gmail.com
+- **Location:** Nairobi, Kenya 🇰🇪
+
+---
+
