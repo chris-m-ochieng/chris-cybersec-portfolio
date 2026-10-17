@@ -21,6 +21,13 @@ Aspiring SOC Analyst based in Nairobi, Kenya. I build hands-on cybersecurity lab
 - Analyzed HTTP, DNS, and authentication logs to trace the attack chain.
 - Documented the investigation from initial alert to root cause.
 
+### 🤖 AI Security Automation Agent (HexStrike + Gemini/Ollama)
+**Repository:** [AI-Security-Automation](https://github.com/chris-m-ochieng/AI-Security-Automation)
+- Integrated a local LLM (Ollama) and Gemini CLI with HexStrike AI via a Model Context Protocol (MCP) server.
+- Enabled natural language execution of offensive security tools (e.g., triggering automated Nmap scans via simple prompts).
+- Implemented JSON parsing to dynamically analyze scan outputs and generate structured summaries of open ports.
+
+
 ### 🛡️ Wazuh SOC Home Lab — Brute Force Detection
 **Repository:** [Wazuh-SOC-Home-Lab](https://github.com/chris-m-ochieng/Wazuh-SOC-Home-Lab)
 - Deployed Wazuh SIEM (Manager, Indexer, Dashboard) on Kali Linux.
