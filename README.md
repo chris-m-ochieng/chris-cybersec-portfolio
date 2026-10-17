@@ -6,6 +6,7 @@ Aspiring SOC Analyst based in Nairobi, Kenya. I build hands-on cybersecurity lab
 ---
 
 ## 🎯 What I'm Working On
+- 🤖 **AI Security Automation Agent** - Integrated a local LLM (Ollama) and Gemini CLI with HexStrike AI via a Model Context Protocol server.
 - 🔍 **Splunk Threat Hunting** — Reconstructed a full web compromise (BOTSv1) using SPL queries.
 - 🛡️ **Wazuh SIEM Home Lab** — Detecting and investigating brute-force attacks in real time.
 - 📝 **Windows Event Log & Sysmon** — Hands-on detection notes for Windows security events.
